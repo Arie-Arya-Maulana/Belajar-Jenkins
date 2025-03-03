@@ -1,0 +1,26 @@
+#!/bin/bash
+
+# Menampilkan pesan sederhana
+echo "Halo, ini adalah percobaan Jenkins dengan Bash Script!"
+
+# Membuat direktori baru
+mkdir -p my_test_dir
+echo "Direktori 'my_test_dir' telah dibuat."
+
+# Masuk ke direktori
+cd my_test_dir
+
+# Membuat file teks
+echo "Ini adalah file percobaan." > testfile.txt
+echo "File 'testfile.txt' telah dibuat."
+
+# Menampilkan isi direktori
+echo "Isi direktori saat ini:"
+ls -l
+
+# Menampilkan isi file
+echo "Isi file 'testfile.txt':"
+cat testfile.txt
+
+# Selesai
+echo "Script selesai dijalankan."
